@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   font-family: "Karla",serif;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background: hsl(204, 43%, 93%);
+    box-shadow: 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    max-width: 850px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.join{
+    background-color: white;
+    grid-column: 1/5;
+    border-radius: 5px;
+    height: 170px;
+    padding-left: 20px;
+}
+.join .head1{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Bold);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: hsl(179, 63%, 58%);
+}
+.join .jp1{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-SemiBold);
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    color:hsl(71, 73%, 54%) ;
+    
+}
+.join .jp2{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Regular);
+    font-weight: lighter;
+    font-size: 13px;
+    color: hsl(218, 22%, 67%);
+}
+.join .jp3{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Regular);
+    font-weight: lighter;
+    font-size: 13px;
+    color: hsl(218, 22%, 67%);
+}
+.month{
+    background: hsl(179, 62%, 43%);
+    font-size: 10px;
+    grid-column: 1/3;
+    height: 170px;
+    padding-left: 20px;
+}
+.month .head2{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Bold);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
+}
+.month b{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Bold);
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(204, 43%, 93%);
+}
+.month a{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-ExtraLight);
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgb(215, 213, 213);
+}
+.month .mp1{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Regular);
+    font-weight: normal;
+    font-size: 12px;
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 15px;
+}
+.month .mp2{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Regular);
+    font-size: 12px;
+    font-weight: normal;
+}
+.month button{
+    width: 170px;
+    height: 30px;
+    color: hsl(204, 43%, 93%) ;
+    font-size: 12px;
+    background-color: hsl(71, 73%, 54%) ;
+    border: none;
+    border-radius: 5px;
+}
+.why{
+    background: hsl(179, 63%, 58%);
+    font-size: 10px;
+    grid-column: 3/5;
+    height: 170px;
+    padding-left: 20px;
+}
+.why .head3{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Bold);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
+}
+.why p{
+    font-family: "Karla" , serif;
+    src: url(Karla/static/Karla-Regular);
+    font-size: 11px;
+    font-weight: normal;
+    color: hsl(180, 3%, 94%);
+}
